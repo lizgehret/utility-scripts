@@ -5,6 +5,10 @@ import re
 import sys
 import subprocess
 
+# NOTES/REQS:
+# this must be run by someone with write permissions for QIIME 2's anaconda account
+# run `conda install anaconda-client` in the environment where you'll be running this script (if not already installed)
+
 q2_packages = [
     "q2-alignment",
     "q2-composition",
